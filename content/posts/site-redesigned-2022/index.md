@@ -24,4 +24,4 @@ I wanted to write some posts this summer, _(not really this summer more like fiv
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RKpf3rK57I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Testing publish script.
+Testing publish script. trying again
