@@ -2,7 +2,7 @@
 title: "I Redesigned the Site"
 date: 2022-08-23T00:09:32-04:00
 lastmod: 2022-08-23T00:09:32-04:00
-draft: true
+draft: false
 
 description: "Hopefully this will not be a yearly tradition of me updating the site, making one post, and leaving it untouched."
 images: []
