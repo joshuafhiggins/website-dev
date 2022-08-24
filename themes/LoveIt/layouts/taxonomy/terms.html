@@ -5,6 +5,7 @@
 {{- define "content" -}}
     {{- $taxonomies := .Data.Plural -}}
     {{- $terms := .Data.Terms.ByCount -}}
+    {{- $pagesInTax := .Data.Pages -}}
     {{- $type := .Type -}}
 
     <div class="page archive">
@@ -16,10 +17,8 @@
         {{- /* Categories Page */ -}}
         {{- if eq $taxonomies "categories" -}}
             <div class="categories-card">
-                {{- range $terms -}}
-                    {{- $term := .Term -}}
+                {{- range $pagesInTax -}}
                     {{- $pages := .Pages -}}
-                    {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $term) -}}
                     <div class="card-item">
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
@@ -41,7 +40,6 @@
                             {{- end -}}
                         </div>
                     </div>
-                    {{- end -}}
                 {{- end -}}
             </div>
 

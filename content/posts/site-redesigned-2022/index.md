@@ -11,7 +11,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Website", "Update"]
-categories: ["General"]
+categories: ["general"]
 
 lightgallery: true
 ---
