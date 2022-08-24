@@ -6,6 +6,6 @@ Weeb Detector was a prank I made to use on my brother, since he started watching
 
 *"Although just a one-off thing, I may add more prank features or make it Linux/MacOS compatible. It did help me get more familiar with networking in Java."*
 
-[![weebdetector-vid](https://img.youtube.com/vi/grI_YSRRoBY/0.jpg)](https://youtu.be/grI_YSRRoBY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/grI_YSRRoBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There are no posts.
