@@ -30,6 +30,14 @@ header {
     right: 0;
     margin: 0 auto;
 
+    @media only screen and (max-width: 680px) {
+        border-radius: 0px;
+        top: 0px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
     .header-title {
         font-style: italic;
         text-transform: uppercase;

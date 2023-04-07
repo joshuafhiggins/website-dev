@@ -1,5 +1,4 @@
 header {
-  width: 80%;
   z-index: 150;
   background-color: $header-background-color;
   @include transition(box-shadow 0.3s ease);
@@ -146,6 +145,7 @@ header {
 }
 
 #header-desktop {
+  width: 80%;
   display: block;
   position: fixed;
   height: var(--header-height);
@@ -211,6 +211,7 @@ header {
 }
 
 #header-mobile {
+  width: 100%;
   display: none;
   position: fixed;
   height: var(--header-height);
