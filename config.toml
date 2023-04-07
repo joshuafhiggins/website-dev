@@ -99,7 +99,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # title name
       name = "LitlToast"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = '<img src="/images/dark-avatar.png" width="25" height="25">'
+      # pre = '<img src="/images/dark-avatar.png" width="25" height="25">'
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
