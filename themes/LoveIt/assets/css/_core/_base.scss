@@ -29,6 +29,12 @@ html {
   &:hover {
     background-color: $scrollbar-hover-color;
   }
+
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 ::selection {
