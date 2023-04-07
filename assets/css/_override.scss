@@ -66,12 +66,14 @@ header {
 
 .archive {
     .single-title {
+        margin: 2rem 0 .5rem;
         font-family: var(--header-title-font-family);
         text-transform: uppercase;
     }
 }
 
 .special {
+    margin: 2rem 0 .5rem;
     .single-title {
         font-family: var(--header-title-font-family);
         text-transform: uppercase;
