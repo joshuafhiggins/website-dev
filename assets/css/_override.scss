@@ -20,13 +20,50 @@ $header-title-font-family: Stratum2;
 header {
     font-family: var(--header-title-font-family);
 
+    @supports ((-webkit-backdrop-filter:blur(var(--header-background-blur ))) or (backdrop-filter:blur(var(--header-background-blur )))) {
+        backdrop-filter: blur(5px);
+    }
+
+    border-radius: 100px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
     .header-title {
         font-style: italic;
         text-transform: uppercase;
     }
+
+    .search {
+        position: relative;
+      
+        input {
+          background-color: transparent;
+          [theme=dark] & {
+            background-color: transparent;
+          }
+        }
+    }
+
+    
 }
 
 .single {
+    .single-title {
+        font-family: var(--header-title-font-family);
+        text-transform: uppercase;
+    }
+}
+
+.archive {
+    .single-title {
+        font-family: var(--header-title-font-family);
+        text-transform: uppercase;
+    }
+}
+
+.special {
     .single-title {
         font-family: var(--header-title-font-family);
         text-transform: uppercase;
@@ -73,8 +110,8 @@ $selection-color-dark: rgba(50, 112, 194, 0.4);
 
 // ========== Header ========== //
 // Color of the header background
-$header-background-color: #f8f8f8;
-$header-background-color-dark: #252627;
+$header-background-color: rgba(248, 248, 248, 0.8);
+$header-background-color-dark: rgba(37, 38, 39, 0.8);
 
 // Color of the hover header item
 $header-hover-color: #161209;
