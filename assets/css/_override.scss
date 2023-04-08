@@ -52,9 +52,7 @@ header {
             background-color: transparent;
           }
         }
-    }
-
-    
+    }    
 }
 
 .single {
@@ -80,8 +78,8 @@ header {
     }
 }
 
-$global-background-color: #fff;
-$global-background-color-dark: #292a2d;
+$global-background-color: #F7FFF7;
+$global-background-color-dark: #343434;
 
 // Color of the text
 $global-font-color: #161209;
@@ -92,12 +90,12 @@ $global-font-secondary-color: #a9a9b3;
 $global-font-secondary-color-dark: #5d5d5f;
 
 // Color of the link
-$global-link-color: #161209;
-$global-link-color-dark: #a9a9b3;
+$global-link-color: #2F3061;
+$global-link-color-dark: #6CA6C1;
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd;
-$global-link-hover-color-dark: #fff;
+$global-link-hover-color: #c4b154;
+$global-link-hover-color-dark: #e6d063;
 
 // Color of the border
 $global-border-color: #f0f0f0;
@@ -120,7 +118,7 @@ $selection-color-dark: rgba(50, 112, 194, 0.4);
 
 // ========== Header ========== //
 // Color of the header background
-$header-background-color: rgba(248, 248, 248, 0.8);
+$header-background-color: rgba(220, 220, 220, 0.8);
 $header-background-color-dark: rgba(37, 38, 39, 0.8);
 
 // Color of the hover header item
@@ -139,8 +137,8 @@ $single-link-color: #2d96bd;
 $single-link-color-dark: #55bde2;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982;
-$single-link-hover-color-dark: #bdebfc;
+$single-link-hover-color: #c4b154;
+$single-link-hover-color-dark: #e6d063;
 
 // Color of the table background
 $table-background-color: #fff;
@@ -166,12 +164,12 @@ $pagination-link-hover-color-dark: #fff;
 // ========== Pagination ========== //
 
 // Color of the code
-$code-color: #E74C3C;
-$code-color-dark: #E5BF78;
+$code-color: #2F3061;
+$code-color-dark: #6CA6C1;
 
 // Color of the code background
-$code-background-color: #f5f5f5;
-$code-background-color-dark: #272C34;
+$code-background-color: rgb(220, 220, 220);
+$code-background-color-dark: rgb(37, 38, 39);
 
 $code-info-color: #9c9c9c;
 $code-info-color-dark: #b1b0b0;
