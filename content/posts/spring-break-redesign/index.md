@@ -1,14 +1,14 @@
 ---
 title: "Spring Cleaning: April 2023"
-date: 2023-04-07T14:00:00-04:00
-lastmod: 2023-04-07T14:00:00-04:00
+date: 2023-04-08T14:55:00-04:00
+lastmod: 2023-04-08T14:55:00-04:00
 # date: YEAR-MONTH-DAYTHOUR:MINUTE:SECOND-04:00
-draft: true
+draft: false
 
 # author: "LitlToast"
 # authorLink: "https://higgy999.github.io"
 description: "I made no posts for the rest of 2022, since the last redesign, and then I felt like redesigning the site again."
-images: []
+images: ["/april2023-website.png", "/april2023-bard.png", "/april2023-toaster.png"]
 resources:
 - name: "featured-image"
   src: "featured-image.png"
@@ -19,9 +19,7 @@ categories: ["general"]
 lightgallery: true
 ---
 
-I made no posts for the rest of 2022 since the last redesign, and then I felt like redesigning the site again.
-TODO: Title
-TODO: Photos
+I made no posts for the rest of 2022 since the last redesign, and then I felt like redesigning the site again. (AI generated image btw)
 
 <!--more-->
 
@@ -39,11 +37,25 @@ Known Bugs:
 - Mobile: Hamburger menu missing when reading a post, this existed before but really shouldn't have
 ```
 
+![april2023-website](/images/april2023-website.png "The new design!")
+
 Light theme looks better than before, and better than dark mode in my opinion. The new header bar is inspired by Hearthstone's website too, although I kept some of the old design on mobile. Several changes had to be made to the theme itself, at some point I need to find a way to move all changes that were made to `_override.scss`. Maybe now I'll make an update post for Prank Suite?
 
 ## Discord Server
 
 I made a [Discord server](https://discord.gg/b48D4m8jNs)! There's channels for asking for help with Java, Kotlin, and Rust, as well as helpful resources. I encourage everyone to put your favorite resources for the languages in their respective channels. I often forget cool things I find and this will be my way of having a whole list to revisit anytime I want. You can also showcase your projects as a thread in the [`#showcase`](https://discord.gg/b48D4m8jNs) channel. I look forward to seeing you there!
+
+<div style="display: flex; flex-direction: row; justify-content: center;">
+  <figure><a class="lightgallery" href="/images/april2023-bard.png" title="april2023-bard" data-thumbnail="/images/april2023-bard.png" data-sub-html="<h2>Music bot</h2><p>april2023-bard</p>" data-lg-id="adfebe47-32ef-4d76-96b7-b1ca96aec455">
+          <img class="lazyautosizes ls-is-cached lazyloaded" src="/images/april2023-bard.png" data-src="/images/april2023-bard.png" data-srcset="/images/april2023-bard.png, /images/april2023-bard.png 1.5x, /images/april2023-bard.png 2x" data-sizes="auto" alt="/images/april2023-bard.png" width="512" height="512" sizes="702px" srcset="/images/april2023-bard.png, /images/april2023-bard.png 1.5x, /images/april2023-bard.png 2x">
+      </a><figcaption class="image-caption">Music bot</figcaption>
+  </figure>
+
+  <figure><a class="lightgallery" href="/images/april2023-toaster.png" title="april2023-toaster" data-thumbnail="/images/april2023-toaster.png" data-sub-html="<h2>Server icon</h2><p>april2023-toaster</p>" data-lg-id="e3e72d4f-30a6-48b2-9af9-7ded950e8eca">
+        <img class="lazyautosizes ls-is-cached lazyloaded" src="/images/april2023-toaster.png" data-src="/images/april2023-toaster.png" data-srcset="/images/april2023-toaster.png, /images/april2023-toaster.png 1.5x, /images/april2023-toaster.png 2x" data-sizes="auto" alt="/images/april2023-toaster.png" width="512" height="512" sizes="702px" srcset="/images/april2023-toaster.png, /images/april2023-toaster.png 1.5x, /images/april2023-toaster.png 2x">
+    </a><figcaption class="image-caption">Server icon</figcaption>
+  </figure>
+</div>
 
 ## Plans & Current Projects
 
