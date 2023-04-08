@@ -217,7 +217,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Steam = ""
     Twitch = ""
     Discord = ""
-    DiscordInvite = ""
+    discordInvite = ""
     Email = ""
     RSS = ""
 
@@ -623,4 +623,5 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         Twitter = "ModsToasty"
         Youtubechannel = "UCIk0qQcaVTxhfTD9sK_0PtQ"
         Email = "joshuafhiggins@gmail.com"
+        Discord = "b48D4m8jNs"
         RSS = true
