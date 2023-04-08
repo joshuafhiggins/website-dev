@@ -209,7 +209,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     GitHub = ""
     Twitter = ""
     Youtubecustom = ""
-    Youtubechannel = "UCIk0qQcaVTxhfTD9sK_0PtQ"
+    Youtubechannel = ""
     Reddit = ""
     Stackoverflow = ""
     Paypal = ""
@@ -620,7 +620,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           disclaimer = ""
       [languages.en.params.social]
         GitHub = "higgy999"
-        Twitter = "ModsToasty"
+        #Twitter = "ModsToasty"
         Youtubechannel = "UCIk0qQcaVTxhfTD9sK_0PtQ"
         Email = "joshuafhiggins@gmail.com"
         Discord = "b48D4m8jNs"
