@@ -3,7 +3,7 @@ title: "Prank Suite Release"
 date: 2023-04-08T22:12:00-04:00
 lastmod: 2023-04-08T22:12:00-04:00
 # date: YEAR-MONTH-DAYTHOUR:MINUTE:SECOND-04:00
-draft: true
+draft: false
 
 # author: "LitlToast"
 # authorLink: "https://higgy999.github.io"
